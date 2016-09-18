@@ -1,4 +1,7 @@
 # **BIRTHDAY COUNTDOWN**
+
+![screenshot]:(assets/screenshot.png)
+
 A terminal application that will countdown the date until your birthday!
 
 to Run:
