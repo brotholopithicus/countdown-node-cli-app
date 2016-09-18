@@ -1,16 +1,19 @@
 {
-    "name": "countdown",
-    "version": "0.0.1",
-    "description": "",
-    "main": "time.js",
-    "scripts": {
-        "start": "node ./src/time.js",
-        "bundle": "enclose -o ./bin/time ./src/time.js"
-    },
-    "author": "James Jarvis",
-    "license": "JAMES THING",
-    "dependencies": {
-        "chalk": "^1.1.3",
-        "cli-clear": "^1.0.4"
-    }
+  "name": "countdown",
+  "version": "0.0.1",
+  "description": "",
+  "main": "time.js",
+  "scripts": {
+    "start": "node ./src/time.js",
+    "bundle": "enclose -o ./bin/time ./src/time.js"
+  },
+  "author": "James Jarvis",
+  "license": "JAMES THING",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cli-clear": "^1.0.4"
+  },
+  "devDependencies": {
+    "enclose": "^2.2.0"
+  }
 }
